@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: acmeair-authservice-java
-        image: quay.io/powercloud/acmeair-authservice-java:1.0
+        image: quay.io/mmondics/acmeair-authservice-java-s390x:v1.0.0
         ports:
           - containerPort: 9080
           - containerPort: 9443
