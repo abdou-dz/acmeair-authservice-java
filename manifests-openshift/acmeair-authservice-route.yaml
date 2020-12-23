@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: acmeair-auth-route
   labels:
-    app.kubernetes.io/part-of: acmeair-authservice
+    app.kubernetes.io/part-of: auth-service
 spec:
   host: _HOST_
   path: /auth

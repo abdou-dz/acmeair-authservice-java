@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: acmeair-authservice
   labels:
-    app.kubernetes.io/part-of: acmeair-authservice
+    app.kubernetes.io/part-of: auth-service
 spec:
   replicas: 1
   selector:
@@ -50,7 +50,7 @@ kind: Service
 metadata:
   name: acmeair-auth-service
   labels:
-    app.kubernetes.io/part-of: acmeair-authservice
+    app.kubernetes.io/part-of: auth-service
 spec:
   ports:
     - port: 9080
