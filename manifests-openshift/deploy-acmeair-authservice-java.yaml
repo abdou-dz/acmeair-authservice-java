@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: acmeair-authservice-java
-        image: docker.io/yigitpolat/acmeair-authservice-java:latests
+        image: docker.io/yigitpolat/acmeair-authservice-java:latest
         ports:
           - containerPort: 9080
           - containerPort: 9443
