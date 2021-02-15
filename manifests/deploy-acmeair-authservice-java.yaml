@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: acmeair-authservice-java
-        image: docker.io/abdouibm/acmeair-authservice-java:latest
+        image: quay.io/abdouibm/acme-authservice:latest
         ports:
           - containerPort: 9080
           - containerPort: 9443
