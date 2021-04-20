@@ -61,3 +61,16 @@ spec:
     - port: 9080
   selector:
     name: acmeair-auth-deployment
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: acmeair-secure-auth-service
+spec:
+  ports:
+    - name: 9443-tcp
+      protocol: TCP
+      port: 9443
+      targetPort: 9443
+  selector:
+    name: acmeair-auth-deployment
