@@ -76,6 +76,5 @@ metadata:
 spec:
   ports:
     - port: 9080
-      name: HTTP
   selector:
     name: acmeair-auth-deployment
